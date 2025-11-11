@@ -58,6 +58,6 @@ The decomposition tree is a granular analysis of vehicular groups by the highest
 
 ## Files Included
 Provided by the Microsoft Power BI Data Analyst Professional Certificate Program
-- `CO2-emissions-by-vehicle.pbix`: Power BI report containing .csv containing vehicle data and emissions
+- `CO2-emissions-by-vehicle.pbix`: Power BI report containing vehicle data and emissions
 
 
