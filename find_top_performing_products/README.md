@@ -13,5 +13,5 @@ In this Power BI report, I leveraged PowerQuery to perform data transformations 
 ## Files Included
 
 Provided by the Microsoft Power BI Data Analyst Professional Certificate Program
-- [AdventureWorks-FactSale.xlsx](AdventureWorks-FactSales.xlsx): Excel spreadsheet contain tables of sales and customer data for Adventure Works
-- `FindTopPerformingProducts.pbix`: 
+- [AdventureWorks-FactSale.xlsx](AdventureWorks-FactSale.xlsx): Excel spreadsheet containing tables of sales and customer data for Adventure Works
+- [FindTopPerformingProducts.pbix](FindTopPerformingProducts.pbix): Power BI report with loaded data before transformations occur
