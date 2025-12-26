@@ -21,7 +21,9 @@ To find the top performing products based on region and product category, a Grou
 To start grouping, select **Group by** from the **Transform** pane in the **Home** tab. Check the "Advanced" radio button to group by multiple columns, namely the **Category** and **Country-Region** columns mentioned before by clicking on "add grouping". A new column named "Total Amount" can be made using a sum operation on the **Sales Amount** column, which is important for a future calculation. Another column named "Order Quantity" can be made by clicking "add aggregation" and using "Count Rows" as the operation. The final new column named "All Rows" can be made by clicking "add aggregation" and using "All Rows" as the operation. This final column will contain tabular data for each group.
 
 The operation panel should appear as follows:
-<img width="852" height="667" alt="group-by-pane" src="https://github.com/user-attachments/assets/f425a7cd-e907-499b-a691-e0fcea8deec8" />
+<p align="center">
+  <img width="852" height="667" alt="group-by-pane" src="https://github.com/user-attachments/assets/f425a7cd-e907-499b-a691-e0fcea8deec8" />
+</p>
 
 
 ### Create the Top Performing Products Column
@@ -31,7 +33,9 @@ After finishing the grouping, a new column can be added to store the top perform
 To start the query, the best products will have the highest sales, so a Max function needs to performed based on the grouping sales amounts by products. Use Table.Max() to compute the highest product sales value. Pass Table.Group() as the first comparison parameter and "Total Sales" as the second.. Within Table.Group(), use the **All Rows** as the table and select "Product" as the grouping key. The final parameters needs to be a list with brackets {}. Compute the sales for each product by using the "Total Sales" column and representing each of the sums of the "Sales Amount" column with the List.Sum() method calling **Sales Amount** as the parameter. 
 
 The final column logic appears as follows:
-<img width="857" height="513" alt="top-perform-custom-column" src="https://github.com/user-attachments/assets/124e97b4-11b3-4e34-aacc-91a291494652" />
+<p align="center">
+  <img width="857" height="513" alt="top-perform-custom-column" src="https://github.com/user-attachments/assets/124e97b4-11b3-4e34-aacc-91a291494652" />
+</p>
 
 After completing the expression, the new column is generated. Use the expand column icon in the top right of the column and ensure only the product box is checked:
 <img width="1295" height="737" alt="expand-product-column" src="https://github.com/user-attachments/assets/67ce19b9-e0bb-4b7b-a43d-a88790db45ae" />
