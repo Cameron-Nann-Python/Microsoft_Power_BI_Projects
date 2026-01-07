@@ -1,7 +1,7 @@
 # Converting Unstructured Data with an Index Column
 
 ## Overview
-At times, data will be in a format that is not suited for analysis. In this project, I will examine an unstructured dataset that 
+At times, data will be in a format that is not suited for analysis and must undergo transformations. In this project, I will examine sample order data that must be tabularized for data analysis. 
 
 ## Getting Started
 The dataset is intially loaded into Power BI Desktop. There is only one column that stores all of the data, which appears to have three distinct sections:
